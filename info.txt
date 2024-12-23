@@ -1,0 +1,5 @@
+https://www.digitalocean.com/community/tutorials/how-to-build-a-node-js-application-with-docker
+git init 
+touch .gitignore 
+docker build -t your_dockerhub_username/nodejs-image-demo . 
+docker run --name nodejs-image-demo -p 80:8080 -d your_dockerhub_username/nodejs-image-demo 
